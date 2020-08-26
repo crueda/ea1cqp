@@ -1,0 +1,50 @@
+{
+  "main": {
+    "consult": "Consultar",
+    "date": "Fecha",
+    "dateInit": "Fecha inicial",
+    "dateEnd": "Fecha final",
+    "license": "Matrícula",
+    "alias": "Alias",
+    "driver": "Conductor",
+    "noTracking": "No existen datos de tracking",
+    "selectVehicle": "Seleccionar un vehículo",
+    "selectDate": "Seleccionar una fecha",
+    "historic": "Histórico",
+    "archive": "Archivo",
+    "realTime": "Tiempo real",
+    "tokenError": "Clave incorrecta o expirada",
+    "historicMaxDays": "El número máximo de dias permitidos es 8"
+  },  
+  "tree": {
+    "licensePlaceholder": "Matrícula o identificador",
+    "aliasPlaceholder": "Alias del dispositivo",
+    "driverPlaceholder": "Nombre del conductor o usuario"
+  },
+  "buttons": {
+    "historic": "Ver histórico"
+  },  
+  "tooltip": {
+    "help": "Manual de usuario",
+    "suggestion": "Buzon de sugerencias",
+    "language": "Selección de idioma",
+    "user": "Usuario conectado",
+    "license": "Matrícula",
+    "alias": "Alias",
+    "date": "Fecha",
+    "position": "Posición",
+    "geocoding": "Ubicación",
+    "speed": "Velocidad",
+    "event": "Evento",
+    "info": "Información",
+    "share": "Compartir",
+    "share_text": "Introduce una dirección de correo electrónico a la que se enviará el enlace para realizar un seguimiento del vehículo",
+    "share_historic_text": "Introduce una dirección de correo electrónico a la que se enviará el enlace para visualizar el histórico",
+    "send": "Enviar",
+    "email": "correo electrónico",
+    "sendOk": "Mensaje enviado",
+    "sendError": "Error enviando el mensaje",
+    "requiredEmail": "Introduzca el correo electrónico",
+    "requiredValidEmail": "Introduzca un correo electrónico válido"    
+  }  
+}

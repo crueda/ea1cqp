@@ -1,0 +1,50 @@
+{
+  "main": {
+    "consult": "Consult",
+    "date": "Date",
+    "dateInit": "Initial date",
+    "dateEnd": "End date",
+    "license": "License",
+    "alias": "Alias",
+    "driver": "Driver",
+    "noTracking": "No tracking data",
+    "selectVehicle": "Select vehicle",
+    "selectDate": "Select date",
+    "historic": "Historic",
+    "archive": "Archive",
+    "realTime": "Real time",
+    "tokenError": "Key error or expired",
+    "historicMaxDays": "The maximum number of days allowed is 8"
+  },
+  "tree": {
+    "licensePlaceholder": "Vehicle license or identification",
+    "aliasPlaceholder": "Alias",
+    "driverPlaceholder": "Driver name or user"
+  },
+  "buttons": {
+    "historic": "Show historic"
+  },  
+  "tooltip": {
+    "help": "User manual",
+    "suggestion": "Suggestions mailbox",
+    "language": "Langiage selection",
+    "user": "User connected",
+    "license": "License",
+    "alias": "Alias",
+    "date": "Date",
+    "position": "Position",
+    "geocoding": "Geocoding",
+    "speed": "Speed",
+    "event": "Event",
+    "info": "Information",
+    "share": "Share",
+    "share_text": "Enter an email address to which will be sent the link for tracking the vehicle",
+    "share_historic_text": "Enter an email address to which will be sent the link for this historic tracking",
+    "send": "Send",
+    "email": "E-mail",
+    "sendOk": "Message sent",
+    "sendError": "Error sending the message",
+    "requiredEmail": "Enter e-mail",
+    "requiredValidEmail": "Enter an e-mail valid"       
+  }  
+}
