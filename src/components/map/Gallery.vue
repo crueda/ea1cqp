@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import Vue from 'vue'
 
 export default {
   name: 'gallery',
@@ -20,14 +19,18 @@ export default {
         let today = new Date()
         let year = today.getFullYear().toString()
         let month = ('0' + (today.getMonth() + 1)).slice(-2)
-        let day = today.getDate().toString()
+        let day = ('0' + (today.getDate())).slice(-2)
         return this.urlBase + year + '-' + month + '-' + day
       }
       return 'http://ea1cqp.ddns.net/fotos/' + this.directory
     },
   },
   data() {
-    return {
+    return {      
+      window: {
+        width: 0,
+        height: 0,
+      },      
       tableHeight: '1500px',
       urlBase: 'http://ea1cqp.ddns.net/fotos/',
     }
@@ -40,7 +43,7 @@ export default {
     let today = new Date()
     let year = today.getFullYear().toString()
     let month = ('0' + (today.getMonth() + 1)).slice(-2)
-    let day = today.getDate().toString()
+    let day = ('0' + (today.getDate())).slice(-2)
     this.urlBase = this.urlBase + year + '-' + month + '-' + day
   },
   methods: {

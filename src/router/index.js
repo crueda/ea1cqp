@@ -8,7 +8,7 @@ export default new Router({
   routes: [
     {
       path: '*',
-      component: () => import('../components/map/Map.vue'),
+      component: () => import('../components/map/Entry.vue'),
     },
   ],
 })
